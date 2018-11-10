@@ -1,0 +1,42 @@
+{
+  "name": "@connect/next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Tyler Mathes",
+  "license": "ISC",
+  "dependencies": {
+    "@connect/nav-next": "file:..",
+    "@connect/theme": "^4.0.5",
+    "@fortawesome/fontawesome": "1.1.8",
+    "@fortawesome/react-fontawesome": "0.0.20",
+    "@material-ui/core": "^3.3.1",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-client-preset": "^1.0.8",
+    "babel-plugin-inline-react-svg": "^0.4.0",
+    "babel-plugin-styled-components": "^1.5.0",
+    "fa5-pro-light": "^5.3.1",
+    "fa5-pro-regular": "^5.3.1",
+    "fa5-pro-solids": "^5.3.1",
+    "graphql": "^14.0.2",
+    "graphql-anywhere": "^4.1.22",
+    "graphql-tag": "^2.10.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jss": "^9.8.0",
+    "next": "^7.0.0",
+    "next-apollo": "^2.0.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-apollo": "^2.2.4",
+    "react-dom": "^16.5.0",
+    "react-jss": "^8.3.3",
+    "styled-components": "^4.0.3"
+  }
+}
