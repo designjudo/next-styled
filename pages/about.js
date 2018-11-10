@@ -28,7 +28,7 @@ const styles = theme => ({
   }
 })
 
-class Index extends React.Component {
+class About extends React.Component {
   state = {
     open: false
   }
@@ -69,8 +69,8 @@ class Index extends React.Component {
           example project
         </Typography>
         <Typography gutterBottom>
-          <Link href="/about">
-            <a>Go to the about page</a>
+          <Link href="/">
+            <a>Go to the home page</a>
           </Link>
         </Typography>
         <Button variant="contained" color="secondary" onClick={this.handleClick}>
@@ -84,8 +84,8 @@ class Index extends React.Component {
   }
 }
 
-Index.propTypes = {
+About.propTypes = {
   classes: PropTypes.object.isRequired
 }
 
-export default withStyles(styles)(Index)
+export default withStyles(styles)(About)
