@@ -11,4 +11,13 @@ const nextConfig = { webpack: config => ({ ...config, node: { fs: 'empty' } }) }
 }),
   (module.exports = {
     distDir: 'build'
-  })
+  }),
+  module.exports = {
+    exportPathMap: async function (defaultPathMap) {
+      return {
+        '/': { page: '/' },
+        '/about': { page: '/about' }
+      }
+    }
+  }
+  
